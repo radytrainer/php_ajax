@@ -1,0 +1,20 @@
+.message 
+{
+    position: absolute;
+    top:0;
+    background: teal;
+    display: none;
+    width: 100%;
+    color:white;
+    text-align: center;
+    padding: .6em 0em;
+    transform: translateY(40px);
+    transition: transform .5s ease;
+}
+.active-message 
+{
+    display: block;
+    transform: translateY(0px);
+    transition: transform .5s ease;
+
+}
